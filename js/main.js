@@ -3,6 +3,7 @@ const LIVE = "❤️";
 var gBoard;
 var elSmiley;
 var elLives;
+
 var gLevel = {
   SIZE: 4,
   MINES: 2,
