@@ -2,7 +2,7 @@
 body {
     text-align: center;
     margin: auto;
-    background-image: url("/pics/background.jpeg")
+    background-image: url("./pics/background.jpeg")
 }
 
 h1 {
