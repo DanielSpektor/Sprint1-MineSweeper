@@ -2,7 +2,13 @@
 body {
     text-align: center;
     margin: auto;
-    background-image: url("pics/background.jpeg")
+    background-image: url("/pics/background.jpeg")
+}
+
+.dark {
+    background-color: black;
+    color: white;
+    
 }
 
 h1 {
@@ -13,12 +19,14 @@ h1 {
 
 h2 {
     text-align: center;
-    font: 1em sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
 
-div.shown {
-    margin-bottom: 20px;
+.div-lives {
+    font-family: monospace;
+    font-size: 20px;
+    margin-bottom: 7px;
 }
 
 .board {
@@ -26,24 +34,30 @@ div.shown {
     color: black;
     
 }
+
 .box{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.buttons-container{
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-}
-.box.button {
-    font-family: serif;
-}
 
 button.reset {
     font-size: 50px;
     margin-bottom: 20px;
+}
+
+.button {
+    font-family: monospace;
+    color: whitesmoke ;
+    background-color: black;
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    
 }
 
 table {
@@ -53,13 +67,16 @@ table {
     margin-top: 30px;
     cursor: pointer;
 }
+
 .cellImg{
     width: 40px;
     height: 40px;
 
 }
+
 footer {
-    margin-top: 50%;
+    margin-top: 5%;
+    font-size: large;
     color: whitesmoke;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
